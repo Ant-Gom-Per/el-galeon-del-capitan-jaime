@@ -3,25 +3,37 @@ html{
     background-size: 100% 100%;
     background-attachment: fixed;
 }
-  .nombre{
-      font-family: cursive;
-      font-size: 100px;
-      text-shadow: 0 0 5px black;
-  }
-  .logo{
-    border-radius: 25px;
-    background-color: black;
-    width: 75%;   
-    background: url(img/fondo_cab.jpg);
-    background-size: 100% 100%;
-  }
-  .piePag{
-    border-radius: 25px;
-    background-color:rgb(0, 0, 0);
-    background-image: url(img/clavera2.png);
-    background-position: right bottom;
-    background-repeat: no-repeat;
-    background-size: 80px 80px;
-    background-position-x: 95%;   
-    background-position-y: 50%;
-  } 
+.nombre{
+    font-family: cursive;
+    font-size: 100px;
+    text-shadow: 0 0 5px black;
+}
+.logo{
+  border-radius: 25px;
+  background-color: black;
+  width: 75%;   
+  background: url(img/fondo_cab.jpg);
+  background-size: 100% 100%;
+}
+.piePag{
+  border-radius: 25px;
+  background-color:rgb(0, 0, 0);
+  background-image: url(img/clavera2.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 80px 80px;
+  background-position-x: 95%;   
+  background-position-y: 50%;
+}
+ul{
+  list-style: none;
+}
+h3,h2,h1{
+  text-shadow: 0 0 5px white;
+}
+.textoNosotros{
+  text-shadow: 0 0 1px white;
+}
+.imGaleria{
+  text-shadow: 0 0 3px white;
+}
